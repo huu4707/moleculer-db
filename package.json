@@ -1,0 +1,30 @@
+{
+  "name": "moleculer-db.git",
+  "version": "1.0.0",
+  "description": "My Moleculer microservices project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner",
+    "cli": "moleculer connect NATS",
+    "lint": "eslint services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "moleculer-repl": "^0.5.7"
+  },
+  "dependencies": {
+    "fakerator": "^0.3.0",
+    "moleculer": "^0.13.9",
+    "moleculer-db": "^0.8.4",
+    "moleculer-web": "^0.8.5",
+    "nats": "^1.3.0"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
